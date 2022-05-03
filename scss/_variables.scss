@@ -1,16 +1,16 @@
 $tamañosTitulos:40px;
 $tamañosSubtitulos:20px;
 $colorTitulos: blue;
-$colorSubtitulos: rgb(8, 204, 8);
+$colorSubtitulos: black;
 $tamañoTitulo: 200px;
 
-$estilos: (color: yellow, 
+$estilos: (color: rgb(251, 255, 0), 
            centro:center, 
            tFuente: 30px,
            );
 
 
-
+           
 .titulobrighter{
     color: $colorTitulos;
     width: $tamañoTitulo;
@@ -36,15 +36,6 @@ h2{
     font-size: 30px;
 }
 
-.tituloindu{
-    @extend .tituloindu;
-}
 
-@mixin sizes($width,$height) {
-    width: $width;
-    height: $height;
-}
 
-.contenido_index1{
-    @include sizes( 300px,300px );
-}
+

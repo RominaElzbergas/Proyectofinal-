@@ -30,7 +30,7 @@
   }
 
   a {
-    color: #000;
+    color: aqua;
     text-decoration: none;
   }
 
@@ -45,34 +45,42 @@
     font-size: 30px;
     font-family: initial;
     font-style: italic;
+
   }
 
   section {
     background-color: black;
     background-size: cover;
+      
   }
 
+
+  .contenido{
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  
   .subtitulo {
     font: corsiva;
     font-size: 30px;
-    color: white;
+    color: rgb(4, 253, 199);
     font-style: italic;
     text-align: center;
-    display: block;
+    display: inline-block;
   }
 
   .subtitulo_indumentariayaccesorios {
     display: block;
-    color: turquoise;
+    color: black;
     text-align: center;
     font-size: 20px;
     font-style: italic;
+    display: inline-block;
   }
 
-  .contenido {
-    display: block;
-    text-align: center;
-  }
   .tituloindu {
     color: turquoise;
   }
@@ -248,8 +256,12 @@
   }
   .maps {
     text-align: center;
-
     width: 480px;
+  }
+
+  .text-white  {
+    font-family: initial;
+    font-style: italic;
   }
 }
 
@@ -272,7 +284,7 @@
   }
 
   a {
-    color: #000;
+    color: aqua;
     text-decoration: none;
   }
 
@@ -301,7 +313,7 @@
 
   .subtitulo_indumentariayaccesorios {
     display: block;
-    color: turquoise;
+    color: black;
     text-align: center;
     font-size: 20px;
     font-style: italic;
@@ -549,7 +561,7 @@
   }
 
   a {
-    color: #000;
+    color: aqua;
     text-decoration: none;
   }
 
@@ -790,3 +802,4 @@
 }
 
 @import "variables";
+
