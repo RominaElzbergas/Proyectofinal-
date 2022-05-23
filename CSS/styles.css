@@ -10,11 +10,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; }
-  header {
-    width: 100%;
-    background-image: url(../Multimedias/valentine-day-romantic-background-free-photo.jpg);
-    background-size: cover;
-    display: block; }
   .item {
     width: 100%;
     display: block; }
@@ -34,7 +29,7 @@
     font-family: initial;
     font-style: italic; }
   section {
-    background-color: black;
+    background-image: -moz-radial-gradient(#5ee7e7, white);
     background-size: cover; }
   .contenido {
     padding: 10px;
@@ -44,21 +39,27 @@
   .subtitulo {
     font: corsiva;
     font-size: 30px;
-    color: #04fdc7;
+    background-color: black;
+    color: white;
     font-style: italic;
+    text-align: center; }
+  h2 {
+    color: white;
     text-align: center;
-    display: inline-block; }
+    font-size: 30px;
+    background-color: black; }
   .subtitulo_indumentariayaccesorios {
     display: block;
-    color: black;
+    color: aqua;
     text-align: center;
     font-size: 20px;
     font-style: italic;
-    display: inline-block; }
+    display: block;
+    background-color: black; }
   .tituloindu {
     color: turquoise; }
   .textoin {
-    color: white;
+    color: black;
     display: inline-block; }
   .imagen1 {
     width: 190px; }
@@ -73,8 +74,7 @@
   footer {
     background-image: url(../Multimedias/oro.jpg);
     background-size: cover;
-    display: block;
-    height: 100%; }
+    display: block; }
   .tituloredes {
     font-size: 15px;
     font-style: oblique;
@@ -112,14 +112,15 @@
     grid-template-rows: min-content;
     row-gap: 15px; }
   .titulo_nuestros {
+    background-color: black;
     color: aqua;
     text-align: center; }
   .texto_nuestrosproductos {
-    color: white;
+    color: black;
     text-align: center; }
   .fotosprod {
     color: white;
-    display: inline-block; }
+    text-align: center; }
   .topraso {
     grid-template-rows: min-content;
     text-align: center; }
@@ -139,13 +140,24 @@
     width: 330px; }
   .body {
     text-align: center; }
+  .fondoproductos {
+    background-color: black;
+    text-align: center; }
   .imgbody {
-    width: 335px; }
+    width: 335px;
+    align-items: center; }
+  .fondoproductosbody {
+    background-color: black;
+    text-align: center;
+    display: block; }
+  .sectionproducto {
+    width: 100%; }
   /*---------------------------------------CONTACTOS-------------------------------*/
   .titulo3 {
     text-align: center;
-    font-size: 35px;
-    color: black; }
+    font-size: 42px;
+    color: aqua;
+    background-color: black; }
   .formulario {
     display: inline-block;
     vertical-align: text-bottom;
@@ -159,7 +171,12 @@
     text-align: center; }
   /*-------------------------------REALIZAR-PEDIDOS---------------------------------------*/
   .subtitulo_realizar {
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center; }
+  .subtitulo_realizar1 {
+    background-color: black;
+    color: aqua;
     text-align: center; }
   .textoreali {
     text-align: center; }
@@ -172,11 +189,6 @@
 
 /*----------------------------------------TABLET--------------------------------------*/
 @media only screen and (min-width: 469px) and (max-width: 1023px) {
-  header {
-    width: 100%;
-    background-size: cover;
-    background-image: url(../Multimedias/valentine-day-romantic-background-free-photo.jpg);
-    display: block; }
   .item {
     width: 100%;
     display: block; }
@@ -193,21 +205,26 @@
     font-family: initial;
     font-style: italic; }
   section {
-    background-color: black;
+    background-image: -moz-radial-gradient(#5ee7e7, white);
     background-size: cover; }
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: black; }
   .subtitulo {
     font: corsiva;
     font-size: 30px;
-    color: white;
     font-style: italic;
     text-align: center;
     display: block; }
   .subtitulo_indumentariayaccesorios {
     display: block;
-    color: black;
+    color: aqua;
     text-align: center;
     font-size: 20px;
-    font-style: italic; }
+    font-style: italic;
+    background-color: black; }
   .contenido {
     text-align: center; }
   .tituloindu {
@@ -227,7 +244,7 @@
     align-items: center;
     margin-top: 60px; }
   .textoin {
-    color: white; }
+    color: black; }
   .contenido {
     width: min-content; }
   .imagen1 {
@@ -243,8 +260,7 @@
   footer {
     background-image: url(../Multimedias/oro.jpg);
     background-size: cover;
-    display: block;
-    height: 100%; }
+    display: block; }
   .tituloredes {
     font-size: 35px;
     font-style: oblique;
@@ -263,7 +279,6 @@
   .ul_footer {
     width: 100%; }
   .derechos {
-    color: black;
     display: inline-block; }
   /*--------------------------------------QUIENESSOMOS--------------------------------*/
   .section_quienes {
@@ -271,25 +286,27 @@
   .subtitulo_quienes {
     text-align: center; }
   .text_quienes {
-    text-align: center; }
+    text-align: center;
+    display: inline-block; }
   .cont_video {
     display: block;
-    width: 55%; }
+    width: 100%; }
   .videoquienes {
-    width: min-content; }
+    width: max-content; }
   /*-------------------------------------NUESTROSPRODUCTOS------------------------*/
   .contenedor_nuestrosproductos {
     grid-template-rows: min-content;
     row-gap: 15px; }
   .titulo_nuestros {
     color: aqua;
+    background-color: black;
     text-align: center; }
   .texto_nuestrosproductos {
-    color: white;
+    color: black;
     text-align: center; }
   .fotosprod {
     color: white;
-    display: inline-block; }
+    padding: 5px; }
   .topraso {
     grid-template-rows: min-content;
     text-align: center; }
@@ -310,18 +327,28 @@
   .body {
     text-align: center; }
   .imgbody {
-    width: 360px; }
+    width: 360px;
+    align-items: center; }
+  .fondoproductosbody {
+    background-color: black;
+    text-align: center;
+    display: block; }
   .div2nuestros {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-between;
+    padding: 5px; }
   .div3nuestros {
     display: flex;
     justify-content: space-evenly; }
+  .fondoproductos {
+    background-color: black;
+    text-align: center; }
   /*---------------------------------------CONTACTOS-------------------------------*/
   .titulo3 {
     text-align: center;
-    font-size: 45px;
-    color: black; }
+    font-size: 42px;
+    color: aqua;
+    background-color: black; }
   .formulario {
     display: inline-block;
     vertical-align: text-bottom;
@@ -335,14 +362,21 @@
     text-align: center; }
   /*-------------------------------REALIZAR-PEDIDOS---------------------------------------*/
   .subtitulo_realizar {
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center; }
+  .subtitulo_realizar1 {
+    background-color: black;
+    color: aqua;
     text-align: center; }
   .textoreali {
     text-align: center; }
   .maps {
-    display: flex;
-    text-align: center;
-    width: 480px; } }
+    align-items: center;
+    width: 100%; }
+  .text-white {
+    font-family: initial;
+    font-style: italic; } }
 
 /*------------------------------------ESCRITORIO index------------------------------*/
 @media only screen and (min-width: 1024px) {
@@ -350,11 +384,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; }
-  header {
-    width: 100%;
-    background-image: url(../Multimedias/valentine-day-romantic-background-free-photo.jpg);
-    background-size: cover;
-    display: block; }
   .item {
     width: 100%;
     display: block; }
@@ -374,8 +403,8 @@
     font-family: initial;
     font-style: italic; }
   section {
-    background-color: black;
-    background-size: cover; }
+    background-size: cover;
+    background-image: -moz-radial-gradient(#5ee7e7, white); }
   .subtitulo {
     font: corsiva;
     font-size: 30px;
@@ -392,8 +421,7 @@
   .tituloindu {
     color: turquoise; }
   .textoin {
-    color: white;
-    display: inline-block; }
+    color: black; }
   .contenido_index1 {
     display: flex;
     flex-direction: row;
@@ -419,8 +447,7 @@
   footer {
     background-image: url(../Multimedias/oro.jpg);
     background-size: cover;
-    display: block;
-    height: 100%; }
+    display: block; }
   .tituloredes {
     font-size: 35px;
     font-style: oblique;
@@ -439,7 +466,6 @@
   .ul_footer {
     width: 100%; }
   .derechos {
-    color: black;
     display: inline-block; }
   /*--------------------------------------QUIENESSOMOS--------------------------------*/
   .section_quienes {
@@ -447,8 +473,7 @@
   .subtitulo_quienes {
     text-align: center; }
   .text_quienes {
-    text-align: center;
-    display: inline-block; }
+    text-align: center; }
   .cont_video {
     display: block;
     width: 100%; }
@@ -459,14 +484,16 @@
     grid-template-rows: min-content;
     row-gap: 15px; }
   .titulo_nuestros {
-    color: aqua;
-    text-align: center; }
+    width: 100%;
+    text-align: center;
+    background-color: black; }
+  .titulonuest {
+    color: aqua; }
   .texto_nuestrosproductos {
-    color: white;
+    color: black;
     text-align: center; }
   .fotosprod {
-    color: white;
-    display: inline-block; }
+    color: white; }
   .topraso {
     grid-template-rows: min-content;
     text-align: center; }
@@ -488,17 +515,32 @@
     text-align: center; }
   .imgbody {
     width: 335px; }
+  .fondoproductosbody {
+    background-color: black;
+    text-align: center;
+    display: block; }
+  .div2nuestros {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; }
+  .div3nuestros {
+    display: flex;
+    justify-content: space-evenly; }
+  .fondoproductos {
+    background-color: black;
+    text-align: center; }
   /*---------------------------------------CONTACTOS-------------------------------*/
   .titulo3 {
     text-align: center;
-    font-size: 35px;
-    color: black; }
+    font-size: 42px;
+    color: aqua;
+    background-color: black; }
   .formulario {
     display: inline-block;
     vertical-align: text-bottom;
     font-size: 20px; }
   .contenedor_contactos {
-    text-align: right; }
+    text-align: center; }
   .contenido1 {
     display: block;
     max-width: 20%; }
@@ -506,29 +548,29 @@
     text-align: center; }
   /*-------------------------------REALIZAR-PEDIDOS---------------------------------------*/
   .subtitulo_realizar {
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center; }
+  .subtitulo_realizar1 {
+    background-color: black;
+    color: aqua;
     text-align: center; }
   .textoreali {
     text-align: center; }
   .maps {
     text-align: center;
-    width: 480px; } }
-
-.titulobrighter {
-  color: blue;
-  width: 200px; }
-
-.subtitulo {
-  color: black; }
-
-.titulo_nuestros {
-  width: 200px; }
-
-h2 {
-  background-color: #fbff00;
-  text-align: center;
-  font-size: 30px; }
-
-.subtitulo_indumentariayaccesorios {
-  background-color: darkorange;
-  font-size: 30px; }
+    width: 100%; }
+  .text-white {
+    font-family: initial;
+    font-style: italic; }
+  .text_quienes {
+    display: inline; }
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: black; }
+  .subtitulo_indumentariayaccesorios {
+    background-color: black;
+    color: aqua;
+    font-size: 30px; } }

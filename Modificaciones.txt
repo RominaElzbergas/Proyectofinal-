@@ -1,0 +1,52 @@
+Agregue: 
+
+*SASS II dentro del archivo _variables_scss
+
+*@extend
+*map-get
+*@mixin
+*Variables
+
+$tamañosTitulos:40px;
+$tamañosSubtitulos:20px;
+$colorTitulos: blue;
+$colorSubtitulos: rgb(8, 204, 8);
+$tamañoTitulo: 200px;
+
+$estilos: (color: yellow, 
+           centro:center, 
+           tFuente: 30px,
+           );
+
+.titulobrighter{
+    color: $colorTitulos;
+    width: $tamañoTitulo;}
+
+.subtitulo{
+color: $colorSubtitulos;}
+
+.titulo_nuestros{
+    width: $tamañoTitulo;}
+
+h2{
+    background-color: map-get($estilos,color);
+    text-align: map-get($estilos,centro);
+    font-size: map-get($estilos,tFuente);}
+
+.tituloindu{
+    @extend .tituloindu;}
+
+@mixin sizes($width,$height) {
+    width: $width;
+    height: $height;}
+
+.contenido_index1{
+    @include sizes( 300px,300px );
+
+
+
+*SEO
+*Keywords y description dentro del head donde cambie la description en cada página de HTML
+
+<meta name="keywords" content="indumentaria,brighter,brigter,braigter">
+<meta name="description" content="Tenemos las mejores prendas y accesorios para cada ocasión"> 
